@@ -8,8 +8,8 @@ const Zoom = (props) => {
   const {meetingId, password} = props
 
   const meetConfig = {
-    apiKey : 'DMxmqmhYTh2XdDHFastjQw',
-    apiSecret : "gdO7L74LJSsHMaAHEVyXnRSjjSxvRYXvDVBZ",
+    apiKey : '', /* get Api Key from Zoom marketplace */
+    apiSecret : "",  /* get Api Secret from Zoom marketplace */
     meetingNumber : meetingId ,
     role : 0,
     userName : 'WebSDK',
